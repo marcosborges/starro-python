@@ -9,7 +9,7 @@ repository = "https://github.com/marcosborges/starro-python"
 documentation = "https://github.com/marcosborges/starro-python"
 keywords = ["secury"]
 classifiers = [
-    "Topic :: Software Development :: Security",
+    "Topic :: Security",
     "Topic :: Software Development :: Libraries :: Python Modules"
 ]
 
