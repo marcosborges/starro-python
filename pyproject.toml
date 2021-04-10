@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "starro"
+description = "The package objective is to mischaracterize sensitive data from this through blinding masks using asterisk"
+version = "1.0.0"
+authors = ["Marcos Borges <contato@marcosborges.com>"]
+
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.2"
+coverage = "^5.5"
+pylint = "^2.7.2"
+bandit = "^1.7.0"
+flake8 = "^3.9.0"
+dependency-check = "^0.5.0"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+test = 'scripts:test'
+coverage = 'scripts:coverage'
+lint = 'scripts:lint'
+security = 'scripts:security'
