@@ -1,4 +1,4 @@
-# STARTO
+# STARRO
 
 Starro is a facilitator to overshadow sensitive information.
 
