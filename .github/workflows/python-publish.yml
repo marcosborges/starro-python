@@ -21,13 +21,10 @@ jobs:
     - name: Install dependencies
       run: |
         make bootstrap
-        poetry export -f requirements.txt --output requirements.txt
-        python -m pip install --upgrade pip
-        pip install setuptools wheel twine
+        python -m poetry export -f requirements.txt --output requirements.txt
     - name: Build and publish
       env:
-        TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
-        TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
+        PYPI_USERNAME: ${{ secrets.PYPI_USERNAME }}
+        PYPI_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
       run: |
-        python setup.py sdist bdist_wheel
-        twine upload dist/*
+        python -m poetry publish -u ${PYPI_USERNAME} --password ${PYPI_PASSWORD}
