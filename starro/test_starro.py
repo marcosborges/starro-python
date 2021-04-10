@@ -7,7 +7,7 @@ def test_complete():
 
 
 def test_password():
-    assert starro.password("P@ssW0rd") == "********"
+    assert starro.password("P@ssW0rd$@") == "**********"
 
 
 def test_token():
@@ -19,7 +19,7 @@ def test_accesskey():
 
 
 def test_secret():
-    assert starro.secret("6543d21a") == "********"
+    assert starro.secret("6543d21a2") == "*********"
 
 
 def test_ssn():
