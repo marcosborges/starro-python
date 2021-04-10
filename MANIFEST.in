@@ -11,4 +11,14 @@ include Makefile
 include .coveragerc
 
 global-exclude __pycache__
+# Non Code related contents
+include LICENSE
+include README.rst
+include pyproject.toml
+
+# Setup
+include setup.py
+include Makefile
+
+global-exclude __pycache__
 global-exclude *.py[co]
