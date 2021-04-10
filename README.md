@@ -4,17 +4,6 @@ Starro is a facilitator to overshadow sensitive information.
 
 It reduces the brain overload inherent in the Regex complexity, bringing several commands closer to human language.
 
----
-
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=marcosborges_starro-python&metric=bugs)](https://sonarcloud.io/dashboard?id=marcosborges_starro-python)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=marcosborges_starro-python&metric=code_smells)](https://sonarcloud.io/dashboard?id=marcosborges_starro-python) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=marcosborges_starro-python&metric=coverage)](https://sonarcloud.io/dashboard?id=marcosborges_starro-python) [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=marcosborges_starro-python&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=marcosborges_starro-python) [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=marcosborges_starro-python&metric=ncloc)](https://sonarcloud.io/dashboard?id=marcosborges_starro-python)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=marcosborges_starro-python&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=marcosborges_starro-python)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=marcosborges_starro-python&metric=alert_status)](https://sonarcloud.io/dashboard?id=marcosborges_starro-python)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=marcosborges_starro-python&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=marcosborges_starro-python) [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=marcosborges_starro-python&metric=security_rating)](https://sonarcloud.io/dashboard?id=marcosborges_starro-python) [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=marcosborges_starro-python&metric=sqale_index)](https://sonarcloud.io/dashboard?id=marcosborges_starro-python)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=marcosborges_starro-python&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=marcosborges_starro-python)
-
-
----
 
 ## how to install?
 
@@ -146,6 +135,31 @@ print("creditcard:"  + myClass.creditcard + "\n")
     - bandit = "^1.7.0"
     - flake8 = "^3.9.0"
     - dependency-check = "^0.5.0"
+
+
+---
+
+
+---
+## QualityGate
+
+
+**[SonarCloud](https://sonarcloud.io/dashboard?id=marcosborges_starro-python)**
+
+<p align=center>
+  <img src="https://sonarcloud.io/api/project_badges/quality_gate?project=marcosborges_starro-python" />
+</p>
+
+
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=marcosborges_starro-python&metric=bugs)](https://sonarcloud.io/dashboard?id=marcosborges_starro-python)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=marcosborges_starro-python&metric=code_smells)](https://sonarcloud.io/dashboard?id=marcosborges_starro-python) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=marcosborges_starro-python&metric=coverage)](https://sonarcloud.io/dashboard?id=marcosborges_starro-python) [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=marcosborges_starro-python&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=marcosborges_starro-python) [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=marcosborges_starro-python&metric=ncloc)](https://sonarcloud.io/dashboard?id=marcosborges_starro-python)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=marcosborges_starro-python&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=marcosborges_starro-python)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=marcosborges_starro-python&metric=alert_status)](https://sonarcloud.io/dashboard?id=marcosborges_starro-python)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=marcosborges_starro-python&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=marcosborges_starro-python) [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=marcosborges_starro-python&metric=security_rating)](https://sonarcloud.io/dashboard?id=marcosborges_starro-python) [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=marcosborges_starro-python&metric=sqale_index)](https://sonarcloud.io/dashboard?id=marcosborges_starro-python)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=marcosborges_starro-python&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=marcosborges_starro-python)
+
+
+
 
 
 ---
