@@ -6,7 +6,7 @@ def test():
 
 def coverage():
     subprocess.run(['python' , '-m', 'coverage', 'erase']) # nosec
-    subprocess.run(['python' , '-m', 'coverage', 'run', '--source=starro', '-m', 'pytest', '--junitxml=results.xml' , 'tests']) # nosec
+    subprocess.run(['python' , '-m', 'coverage', 'run', '--source=starro', '-m', 'pytest', '--junitxml=results.xml' , '.']) # nosec
     subprocess.run(['python' , '-m', 'coverage', 'xml', '-i']) # nosec
     subprocess.run(['python' , '-m', 'coverage', 'report', '-m']) # nosec
 
