@@ -1,8 +1,17 @@
 [tool.poetry]
 name = "starro"
 description = "The package objective is to mischaracterize sensitive data from this through blinding masks using asterisk"
-version = "1.0.3"
+version = "1.0.6"
 authors = ["Marcos Borges <contato@marcosborges.com>"]
+readme = "README.md"
+homepage = "https://github.com/marcosborges/starro-python"
+repository = "https://github.com/marcosborges/starro-python"
+documentation = "https://github.com/marcosborges/starro-python"
+keywords = ["secury"]
+classifiers = [
+    "Topic :: Software Development :: Security",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
 
 
 [tool.poetry.dependencies]
