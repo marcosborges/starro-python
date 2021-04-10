@@ -1,4 +1,4 @@
-from starro import starrofy
+from ..starro.starro import starrofy
 
 class MyClass:
     

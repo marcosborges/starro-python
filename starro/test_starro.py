@@ -34,6 +34,10 @@ def test_name():
     assert starro.name("Marcos Monteiro Borges") == "M***** M******* B*****"
 
 
+def test_mail():
+    assert starro.mail("contato@marcosborges.com") == "c******@marcosborges.com"
+
+
 def test_cpf():
     assert starro.cpf("313.789.874-45") == "313.***.***-45"
 
@@ -56,10 +60,6 @@ def test_ie():
 
 def test_cnh():
     assert starro.cnh("019647647710") == "019*******10"
-
-
-def test_mail():
-    assert starro.mail("contato@marcosborges.com") == "c******@marcosborges.com"
 
 
 def test_gender():
