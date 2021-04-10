@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "starro"
 description = "The package objective is to mischaracterize sensitive data from this through blinding masks using asterisk"
-version = "1.0.1"
+version = "1.0.2"
 authors = ["Marcos Borges <contato@marcosborges.com>"]
 
 

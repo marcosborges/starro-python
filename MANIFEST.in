@@ -1,0 +1,14 @@
+# Non Code related contents
+include LICENSE
+include README.md
+include pyproject.toml
+
+# Setup
+include setup.py
+include Makefile
+
+# Tests
+include .coveragerc
+
+global-exclude __pycache__
+global-exclude *.py[co]
