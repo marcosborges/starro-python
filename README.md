@@ -1,6 +1,6 @@
 # STARRO
 
-![Starro](assets/starro.png)
+![Starro](https://raw.githubusercontent.com/marcosborges/starro-python/master/assets/starro.png)
 
 
 Starro is a facilitator to overshadow sensitive information.
