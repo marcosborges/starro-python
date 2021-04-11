@@ -1,5 +1,8 @@
 # STARRO
 
+![Starro](assets/starro.png)
+
+
 Starro is a facilitator to overshadow sensitive information.
 
 It reduces the brain overload inherent in the Regex complexity, bringing several commands closer to human language.
@@ -144,7 +147,7 @@ print("creditcard:"  + myClass.creditcard + "\n")
 ## QualityGate
 
 
-**[SonarCloud](https://sonarcloud.io/dashboard?id=marcosborges_starro-python)**
+**[SonarCloud](https://sonarcloud.io/dashboard?id=marcosborges_starro-python)** 
 
 <p align=center>
   <img src="https://sonarcloud.io/api/project_badges/quality_gate?project=marcosborges_starro-python" />
