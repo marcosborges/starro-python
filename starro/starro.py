@@ -11,7 +11,7 @@ def complete(arg):
     Returns:
         str: converted string on string
     """
-    return '*' * len(arg)
+    return '*' * len(str(arg))
 
 
 def password(arg):
